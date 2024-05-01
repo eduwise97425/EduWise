@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="static/css/Dashboard_Page_style.css">
+    <link rel="stylesheet" href="static/css/Chat_bot.css">
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Dashboard EduWise</title>
+    <link rel="website icon" type="png" href="static/css/images/graduation-hat.png">
+</head>
+<!------------------------------Dashboard//////------------------------------------------>
+
+
+<!------------------------------Dashboard//////------------------------------------------>
+
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <img src="static/css/images/mortarboard.gif" alt="">
+            </div>
+            <span class="logo_name">EDUWISE
+            </span>
+        </div>
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="/Dashboard_Page">
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name">Dashboard</span>
+                </a></li>
+        <!------------------------------>
+                <li><a href="/Note_Pad">
+                    <i class="uil uil-clipboard-alt"></i>
+                    <span class="link-name">Notepad</span>
+                </a></li>
+        <!------------------------------>
+                <li><a href="/Generate_Page">
+                    <i class="uil uil-cog"></i>
+                    <span class="link-name">Generate</span>
+                </a></li>
+        <!------------------------------>
+                <li><a href="/Team_Page">
+                    <i class="uil uil-code-branch"></i>
+                    <span class="link-name">Developers</span>
+                </a></li>
+        <!------------------------------>
+                <li><a href="/Blog_Page">
+                    <i class="uil uil-files-landscapes"></i>
+                    <span class="link-name">Blog</span>
+                </a></li>
+    <!-------------------------------team----------------------------------------->
+
+    <!------------------------------------------------------------------------>
+          <ul class="logout-mode">
+                <li><a href="/">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Dark Mode</span>
+                </a>
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+<!------------------------------------------------------------------------>
+<!------------------------------------------------------------------------>
+<section class="dashboard">
+    <div class="top">
+      <i class="uil uil-bars sidebar-toggle"></i>
+
+      <div class="search-box">
+          <i class="uil uil-search"></i>
+          <input type="text" placeholder="Search here...">
+      </div>
+      <img src="static/css/images/profile.jpg" alt="">
+  </div>
+  <!--------------->
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-clock"></i>
+                    <span class="text">Recent</span>
+                </div>
+                <!--------------->
+                <div class="boxes">
+                    <div class="box box1">
+                        <i class="uil uil-file"></i>
+                        <span class="text">----</span>
+                        <span class="number">---img--</span>
+                          <!-------------PDF DOWNLOAD BTN----------->
+                     <button class="button" type="button">
+                        <span class="button__text">Download</span>
+                        <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" id="bdd05811-e15d-428c-bb53-8661459f9307" data-name="Layer 2" class="svg"><path d="M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z"></path><path d="M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z"></path><path d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z"></path></svg></span>
+                      </button>
+                    </div>
+                </div>
+                <!--------------->
+            </div>
+            <!--------------->
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-tachometer-fast-alt"></i>
+                    <span class="text">Previous</span>
+                </div>
+                <div class="boxes">
+                    <div class="box box1">
+                        <i class="uil uil-file"></i>
+                        <span class="text">----</span>
+                     <span class="number">---img--</span>
+                     <!-------------PDF DOWNLOAD BTN----------->
+                     <button class="button" type="button">
+                        <span class="button__text">Download</span>
+                        <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" id="bdd05811-e15d-428c-bb53-8661459f9307" data-name="Layer 2" class="svg"><path d="M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z"></path><path d="M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z"></path><path d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z"></path></svg></span>
+                      </button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!--------CHATBOT-SECTION-------------------->
+                </div>
+            </div>
+        </div>
+        <button class="chatbot-toggler">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M12 8V4H8"/>
+                <rect width="16" height="12" x="4" y="8" rx="2"/>
+                <path d="M2 14h2m16 0h2m-7-1v2m-6-2v2"/>
+            </g>
+        </svg>
+            <span class="material-symbols-outlined"></span>
+          </button>
+          <div class="chatbot">
+            <header>
+              <h2>Chatbot</h2>
+              <span class="close-btn material-symbols-outlined">close</span>
+            </header>
+            <ul class="chatbox">
+              <li class="chat incoming">
+                <span class="material-symbols-outlined">smart_toy</span>
+                <p>Hi there 👋<br>How can I help you today?</p>
+              </li>
+            </ul>
+            <div class="chat-input">
+              <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+              <span id="send-btn" class="material-symbols-rounded">send</span>
+            </div>
+          </div>
+            <!--------chatbot-------------------->
+
+    </section>
+<!------script------------------------------->
+    <script src="static/js/Dashboard_Page_script.js"></script>
+    <script src="static/js/Chat_bot.js" ></script>
+</body>
+</html>

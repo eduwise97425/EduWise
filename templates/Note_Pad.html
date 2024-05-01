@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Notes</title>
+    <link rel="website icon" type="png" href="static/css/images/graduation-hat.png">
+    <link rel="stylesheet" href="static/css/Note_Pad_style.css">
+    <link rel="stylesheet" href="static/css/Dashboard_Page_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+<!------------------------------------------------------------------------>
+<body>
+  <nav>
+      <div class="logo-name">
+          <div class="logo-image">
+              <img src="static/css/images/mortarboard.gif" alt="">
+          </div>
+          <span class="logo_name">EDUWISE
+          </span>
+      </div>
+      <div class="menu-items">
+        <ul class="nav-links">
+            <li><a href="/Dashboard_Page">
+                <i class="uil uil-estate"></i>
+                <span class="link-name">Dashboard</span>
+            </a></li>
+    <!------------------------------>
+            <li><a href="/Note_Pad">
+                <i class="uil uil-clipboard-alt"></i>
+                <span class="link-name">Notepad</span>
+            </a></li>
+    <!------------------------------>
+            <li><a href="/Generate_Page">
+                <i class="uil uil-cog"></i>                    
+                <span class="link-name">Generate</span>
+            </a></li>
+    <!------------------------------>
+            <li><a href="/Team_Page">
+                <i class="uil uil-code-branch"></i>                    
+                <span class="link-name">Developers</span>
+            </a></li>
+    <!------------------------------>
+            <li><a href="/Blog_Page">
+                <i class="uil uil-files-landscapes"></i>                    
+                <span class="link-name">Our Blog</span>
+            </a></li>
+         
+<!------------------------------------------------------------------------>
+        <ul class="logout-mode">
+              <li><a href="/">
+                  <i class="uil uil-signout"></i>
+                  <span class="link-name">Logout</span>
+              </a></li>
+              <li class="mode">
+                  <a href="#">
+                      <i class="uil uil-moon"></i>
+                  <span class="link-name">Dark Mode</span>
+              </a>
+              <div class="mode-toggle">
+                <span class="switch"></span>
+              </div>
+          </li>
+          </ul>
+      </div>
+  </nav>
+<!------------------------------------------------------------------------>
+<!--------------------------notepad---------------------------------------------->
+      <section class="dashboard">
+        <div class="top">
+          <i class="uil uil-bars sidebar-toggle"></i>
+
+          <div class="search-box">
+              <i class="uil uil-search"></i>
+              <input type="text" placeholder="Search here...">
+          </div>
+          <img src="static/css/images/profile.jpg" alt="">
+        </div>
+      <!--------------->
+        <div class="popup-box">
+      <div class="popup">
+        <div class="content">
+          <header>
+            <p></p>
+            <i class="uil uil-times"></i>
+          </header>
+          <form action="#">
+            <div class="row title">
+              <label>Title</label>
+              <input type="text" spellcheck="false">
+            </div>
+            <div class="row description">
+              <label>Description</label>
+              <textarea spellcheck="false"></textarea>
+            </div>
+            <button></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <li class="add-box">
+        <div class="icon"><i class="uil uil-plus"></i></div>
+        <p>Add new note</p>
+      </li>
+    </div>
+  </section>
+<!---------script-------------->
+    <script src="static/js/Note_Pad_script.js"></script>
+    <script src="static/js/Dashboard_Page_script.js"></script>
+  </body>
+</html>
